@@ -130,6 +130,8 @@ lookup('google.com').then(console.log);
 - ✅ Clean JSON Output
 - ✅ CLI & Module Support
 
+---
+
 ## 🧪 Test on Scraper Tester
 
 ```js
@@ -146,15 +148,54 @@ async function chat(prompt) {
 module.exports = { chat };
 ```
 
+---
+
+## 📡 Data Sources
+
+This tool uses the following public APIs:
+
+| API | Provider | Data |
+|-----|----------|------|
+| [Google DNS-over-HTTPS](https://dns.google) | Google | DNS Records |
+| [Certificate Spotter](https://sslmate.com/certspotter/) | SSLMate | SSL Certificates |
+| [IP-API](https://ip-api.com) | IP-API | IP Geolocation |
+
+---
+
+## ⚠️ Disclaimer
+
+This tool is for **educational purposes only**. All data is obtained from public third-party APIs.
+
+- **Google DNS** - All DNS data belongs to Google DNS API
+- **Certificate Spotter** - SSL certificate data belongs to SSLMate Certificate Spotter
+- **IP-API** - Geolocation data belongs to IP-API
+
+This project does not claim ownership of the data. It only formats and displays the data in JSON format. Please refer to each API provider's terms of service for usage limitations.
+
+---
+
 ## 🔗 Related Projects
 
 - [IP Locations](https://github.com/Mayzaaonex/iplocations) - IP Geolocation Lookup
 - [AI Scraper Tester](https://scraper.mayzaa.my.id) - Test scraper scripts online
+- [Screenshots](https://github.com/Mayzaaonex/Screenshoot-project) - Project screenshots
+
+---
 
 ## 👤 Author
 
-**Mayzaa** - [GitHub](https://github.com/Mayzaaonex)
+**Mayzaa**
+
+- GitHub: [@Mayzaaonex](https://github.com/Mayzaaonex)
+
+---
 
 ## 📄 License
 
 MIT © 2026 Mayzaa
+
+---
+
+<p align="center">
+  Made with ❤️ by <b>Mayzaa</b>
+</p>
